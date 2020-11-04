@@ -1,0 +1,798 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+@media (max-width: 768px) {
+  * {
+    height: auto;
+  }
+}
+
+body {
+  min-width: 300px;
+}
+
+.top {
+  background-image: url("https://s3-ap-northeast-1.amazonaws.com/flower-production-assets/assets/web/home/bg_header_pink-4704d42ed44908fb061e80afc515a93ab2fcbfd605c2580de486a4d980b2115a.jpg");
+  background-size: cover;
+  text-align: center;
+  background-position: center bottom;
+  height: 100vh;
+  min-height: 660px;
+  position: relative;
+}
+
+.logo {
+  color: white;
+  padding-top: 190px;
+}
+
+@media (max-width: 768px) {
+  .logo {
+    padding-top: 90px;
+  }
+}
+
+.logo img {
+  width: 130px;
+  margin-bottom: 5px;
+}
+
+.logo p {
+  margin-top: 15px;
+  font-size: 19px;
+  letter-spacing: 1px;
+}
+
+.top-app {
+  bottom: 47px;
+  text-align: center;
+  width: 100%;
+  position: absolute;
+}
+
+@media (max-width: 768px) {
+  .top-app {
+    position: fixed;
+    bottom: 0;
+    background-color: white;
+    height: 100px;
+    z-index: 10;
+  }
+}
+
+.top-app img {
+  width: 164px;
+}
+
+.google {
+  padding-left: 10px;
+}
+
+@media (max-width: 768px) {
+  .top-app img,
+  .google {
+    padding-top: 25px;
+  }
+}
+
+.top-app p {
+  font-size: 13px;
+  color: white;
+  padding-top: 42px;
+  letter-spacing: 1px;
+}
+
+.container {
+  display: flex;
+  height: 80vh;
+}
+
+@media (max-width: 768px) {
+  .container {
+    display: block;
+    height: auto;
+  }
+}
+
+.feature {
+  width: 33.3%;
+  background-size: cover;
+  height: 100%;
+  background-position: center bottom;
+}
+
+@media (max-width: 768px) {
+  .feature {
+    width: 100%;
+    height: 540px;
+  }
+}
+
+.favorite {
+  background-image: url("https://s3-ap-northeast-1.amazonaws.com/flower-production-assets/assets/web/home/bg_service01-01ee576583ddad054106d9f2dc78caf78be6c829383351a4fbc99ac5a566020a.jpg");
+}
+
+.post {
+  background-image: url("https://s3-ap-northeast-1.amazonaws.com/flower-production-assets/assets/web/home/bg_service02-cd59d8cd17b05503a9fc3eeae42d618d0cc19b2277b581f5db275d5dde09e94d.jpg");
+}
+
+.cute {
+  background-image: url("https://s3-ap-northeast-1.amazonaws.com/flower-production-assets/assets/web/home/bg_service03-4c44f872ed6f7ed3007faeb109b1e03ceabcdb3106ba54392a5457a159a0f2ab.jpg");
+}
+
+.feature-message {
+  width: 83%;
+  padding-top: 75px;
+  margin: 0 auto;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .feature-message {
+    height: 100%;
+    padding-top: 50px;
+  }
+}
+
+.feature-message h1 {
+  font-weight: normal;
+  font-size: 22px;
+}
+
+.feature-message p {
+  font-size: 15px;
+}
+
+@media (max-width: 768px) {
+  .feature-message p {
+    margin-top: 10px;
+  }
+}
+
+.guide-container {
+  height: 580px;
+  display: flex;
+}
+
+@media (max-width: 768px) {
+  .guide-container {
+    display: block;
+    height: auto;
+  }
+}
+
+.guide-money,
+.guide-schedule {
+  width: 50%;
+  height: 100%;
+  text-align: center;
+  color: black;
+  margin: auto;
+}
+
+.guide-money {
+  background-color: #f5f5f5;
+}
+
+@media (max-width: 768px) {
+  .guide-money {
+    width: 100%;
+    min-height: 600px;
+  }
+}
+
+@media (max-width: 768px) {
+  .guide-schedule {
+    width: 100%;
+    height: auto;
+    min-height: 420px;
+  }
+}
+.guide-toptext {
+  margin-top: 70px;
+  font-size: 19px;
+  letter-spacing: 1.5px;
+  line-height: 30px;
+}
+
+@media (max-width: 768px) {
+  .guide-toptext {
+    margin-top: 0%;
+    padding-top: 16vmin;
+  }
+}
+
+.guide-secondtext {
+  margin-top: 160px;
+  font-size: 20px;
+}
+
+@media (max-width: 768px) {
+  .guide-secondtext {
+    margin-top: 0;
+    padding-top: 16vmin;
+  }
+}
+
+.guide-image {
+  position: relative;
+  margin: 10px auto 0 auto;
+  width: 200px;
+  z-index: 5;
+}
+
+.image-container {
+  position: absolute;
+  left: 35px;
+}
+
+.img-comment {
+  width: 130px;
+  margin: 0 auto;
+  height: 50px;
+}
+
+.img-flower {
+  margin: 25px 0 30px 0;
+  height: 200px;
+}
+
+.guide-money h5 {
+  font-size: 15px;
+  line-height: 10px;
+}
+
+.guide-money h4 {
+  font-size: 19px;
+  padding: 10px 0 15px 0;
+}
+
+.guide-money span {
+  font-size: 13px;
+}
+
+.supplement {
+  margin-top: 20px;
+  font-size: 13px;
+}
+
+.guide-schedule img {
+  height: 160px;
+  margin-top: 25px;
+}
+
+.type {
+  background-color: #ead5dc;
+  height: 730px;
+  text-align: center;
+  padding: 0 20px;
+}
+
+@media (max-width: 768px) {
+  .type,
+  .type-left,
+  .type-right {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .type {
+    height: 900px;
+    min-height: 660px;
+    padding: 0px;
+  }
+}
+
+.type-title {
+  padding-top: 150px;
+}
+
+@media (max-width: 768px) {
+  .type-title {
+    padding-top: 18vw;
+  }
+}
+
+.type-title p {
+  font-size: 24px;
+  letter-spacing: 1px;
+  margin-bottom: 80px;
+}
+
+@media (max-width: 768px) {
+  .type-title p {
+    font-size: 22px;
+    letter-spacing: 1.5px;
+    margin-bottom: 20px;
+  }
+}
+
+.type-image {
+  width: 50%;
+  height: 100%;
+  float: left;
+  margin: 0 auto;
+  background-image: url("https://s3-ap-northeast-1.amazonaws.com/flower-production-assets/assets/web/home/bg_flower-1a07674a0e731b035e9344d0b0ec772eb116759368da38dc0b21bec925479009.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+@media (max-width: 768px) {
+  .type-image {
+    width: 100%;
+    height: 275px;
+  }
+}
+
+.type-right {
+  width: 50%;
+  float: right;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .type-right {
+    width: 100%;
+  }
+}
+
+.type-topic {
+  margin: 0 auto;
+}
+
+.type-answer {
+  float: center;
+  margin: 0 auto;
+  max-width: 400px;
+}
+
+.right-main {
+  font-size: 20px;
+  letter-spacing: 1px;
+  margin: 30px 0 5px 0;
+}
+
+.right-sub {
+  text-align: left;
+  margin: 0 0 30px 0;
+  font-size: 14px;
+  letter-spacing: 1.5px;
+  line-height: 25px;
+}
+
+.vase {
+  background-color: #e7e3df;
+  height: 820px;
+  display: flex;
+  flex-flow: column wrap;
+}
+
+@media (max-width: 768px) {
+  .vase {
+    display: block;
+    height: 1150px;
+  }
+}
+
+.vase-title {
+  width: 50%;
+  padding-top: 100px;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .vase-title {
+    padding-top: 16vw;
+    font-size: 21px;
+    width: 100%;
+  }
+}
+
+.vase-title p {
+  font-size: 25px;
+  letter-spacing: 0.2px;
+}
+
+.vase-sale {
+  background-color: white;
+  /* font-weight: bold; */
+  width: 130px;
+  height: 30px;
+  margin: 15px auto 0 auto;
+}
+
+.vase-sale p {
+  line-height: 30px;
+  font-size: 14px;
+}
+
+.vase-right {
+  width: 50%;
+  height: 730px;
+  background-image: url("https://s3-ap-northeast-1.amazonaws.com/flower-production-assets/assets/web/home/bg_vase-45bcc89846e1a077353f799e42054251c3e3e570fcc453b8d96282d5df1ad6db.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  order: 3;
+}
+
+@media (max-width: 768px) {
+  .vase-right {
+    width: 100%;
+    background-size: contain;
+    background-position: top;
+    height: 400px;
+  }
+}
+
+.vase-container {
+  width: 50%;
+  order: 2;
+}
+
+.vase-experience {
+  font-size: 14px;
+  letter-spacing: 1.6px;
+  margin: 120px auto 0;
+  width: 400px;
+  line-height: 25px;
+}
+
+@media (max-width: 768px) {
+  .vase-container {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .vase-experience {
+    width: 90%;
+    margin: 50px auto;
+  }
+}
+
+.vase-list {
+  display: flex;
+  height: 150px;
+  width: 400px;
+  margin: 20px auto 0;
+}
+
+@media (max-width: 768px) {
+  .vase-list {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+.vase-img {
+  width: 33.3%;
+  position: relative;
+}
+
+.vase-img img {
+  height: 115px;
+  width: 100px;
+}
+
+.bell {
+  text-align: left;
+}
+
+.moon {
+  text-align: center;
+}
+
+.candle {
+  text-align: right;
+}
+
+@media (max-width: 768px) {
+  .bell,
+  .candle {
+    text-align: center;
+  }
+}
+
+.vase-bell {
+  position: absolute;
+  font-size: 12px;
+  top: 95px;
+  left: 40px;
+}
+
+@media (max-width: 768px) {
+  .vase-bell {
+    left: 50px;
+  }
+}
+
+.vase-moon {
+  position: absolute;
+  font-size: 12px;
+  top: 95px;
+  left: 50px;
+}
+
+.vase-candle {
+  position: absolute;
+  font-size: 12px;
+  top: 95px;
+  left: 65px;
+}
+
+@media (max-width: 768px) {
+  .vase-candle {
+    left: 45px;
+  }
+}
+
+.vase-order {
+  display: flex;
+  width: 400px;
+  margin: 0 auto 15px;
+}
+
+@media (max-width: 768px) {
+  .vase-order {
+    width: 100%;
+    margin-left: 15px;
+  }
+}
+
+.vase-first {
+  border: solid 2px black;
+  width: 73px;
+  height: 40px;
+  font-size: 13px;
+  padding: 5px 10px;
+  margin-right: 15px;
+}
+
+.vase-money {
+  text-align: left;
+  font-size: 18px;
+}
+
+.normal-money {
+  font-size: 13px;
+}
+
+.vase-app {
+  font-size: 12px;
+  text-align: left;
+  width: 400px;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .vase-app {
+    float: left;
+    width: 100%;
+    margin-left: 15px;
+  }
+}
+
+.life {
+  height: 420px;
+}
+
+@media (max-width: 768px) {
+  .life {
+    height: auto;
+    margin-bottom: 80px;
+  }
+}
+
+.life-container {
+  /* height: 100%; */
+  margin: 0 auto;
+  width: 90%;
+}
+
+@media (max-width: 768px) {
+  .life-container {
+    width: 100%;
+  }
+}
+
+.life-title {
+  margin: 125px 0 35px 0;
+  text-align: center;
+  font-size: 25px;
+  letter-spacing: 1px;
+}
+
+@media (max-width: 768px) {
+  .life-title {
+    margin-top: 60px;
+    font-size: 23px;
+    width: 100%;
+  }
+}
+
+.life-merit {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 768px) {
+  .life-merit {
+    display: block;
+  }
+}
+
+.life-topic {
+  width: 33.3%;
+  text-align: center;
+  margin: 0 21px;
+}
+
+@media (max-width: 768px) {
+  .life-topic {
+    width: 100%;
+    margin: 0;
+  }
+}
+
+.life-topic img {
+  width: 80px;
+}
+
+.topic-main {
+  font-size: 22px;
+  letter-spacing: 1px;
+}
+
+.topic-sub {
+  margin-top: 10px;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+.last {
+  height: 420px;
+  width: 100%;
+  background-color: #efdfc5;
+}
+
+@media (max-width: 768px) {
+  .last {
+    padding-top: 12vmin;
+    height: auto;
+  }
+}
+
+.last-container {
+  width: 80%;
+  height: 100%;
+}
+
+@media (max-width: 768px) {
+  .last-container {
+    width: 100%;
+    overflow: hidden;
+  }
+}
+
+.last-logo {
+  width: 200px;
+  height: 130px;
+  margin: 50px 80px 0 0;
+  float: right;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .last-logo {
+    clear: both;
+    margin: 0px;
+    width: 100%;
+  }
+}
+
+.last-logo img {
+  height: 80px;
+  width: 110px;
+}
+
+.phone-img {
+  width: 100%;
+  height: 100%;
+  background-image: url("https://s3-ap-northeast-1.amazonaws.com/flower-production-assets/assets/web/home/bg_download2-afd5325a6ad7ae095cd1aad7172be40a68704bad0eaae90dbff5e274759345ad.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center bottom;
+  text-align: center;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .phone-img {
+    clear: both;
+    height: 50vmin;
+    width: 70vmin;
+    min-height: 276px;
+    background-size: cover;
+  }
+}
+
+.last-logo p {
+  margin-top: 5px;
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+
+footer {
+  background-color: #3f434a;
+  width: 100%;
+  height: 49vh;
+}
+
+.footer-default {
+  display: flex;
+  width: 100%;
+  position: relative;
+}
+
+.footer-container {
+  width: 75%;
+  height: 20px;
+  display: flex;
+  justify-content: space-between;
+  padding: 8vh 0 1vh 4vw;
+}
+
+@media (max-width: 768px) {
+  .footer-container {
+    display: block;
+    height: auto;
+    margin-bottom: 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer-icon {
+    padding-bottom: 14px;
+  }
+}
+
+.footer-icon a {
+  color: white;
+  border: none;
+  text-decoration: none;
+  font-size: 14px;
+  margin-right: 5pw;
+}
+
+.footer-img {
+  float: right;
+  width: 25%;
+
+  position: relative;
+}
+
+.footer-img img {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  top: 30px;
+  right: 30px;
+}
+
+.footer-msg {
+  text-align: center;
+  font-size: 13px;
+  color: #fff;
+  opacity: 0.4;
+  width: 100%;
+  padding-top: 20vh;
+}
